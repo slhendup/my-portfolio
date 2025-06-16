@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #222;
+  padding: 1rem 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #00bcd4;
+}
