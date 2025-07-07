@@ -1,0 +1,48 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.footer-link {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .footer p {
+    font-size: 15px;
+  }
+
+  .footer-copy {
+    font-size: 0.85em;
+  }
+}
